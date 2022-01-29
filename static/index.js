@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 5) return '这也太菜了，还想吃我？';
+        if (cps <= 8) return '还是太菜了';
+        if (cps <= 10)  return '你这也不行啊';
+        if (cps <= 15) return '差点就吃到主席了';
         return '人？';
     }
 
